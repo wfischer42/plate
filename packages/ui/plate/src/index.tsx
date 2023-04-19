@@ -20,6 +20,7 @@ export * from '@udecode/plate-ui-list';
 export * from '@udecode/plate-ui-media';
 export * from '@udecode/plate-ui-mention';
 export * from '@udecode/plate-ui-placeholder';
+export * from '@udecode/plate-ui-suggestion';
 export * from '@udecode/plate-ui-table';
 export * from '@udecode/plate-ui-toolbar';
 export * from './types';

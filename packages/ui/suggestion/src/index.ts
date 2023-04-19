@@ -3,4 +3,4 @@
  */
 
 export * from './PlateSuggestionLeaf';
-export * from './PlateSuggestionToolbarButton';
+export * from './PlateSuggestionSelect';

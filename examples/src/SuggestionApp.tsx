@@ -5,13 +5,13 @@ import {
   Plate,
   PlateProvider,
   PlateSuggestionLeaf,
+  PlateSuggestionSelect,
 } from '@udecode/plate';
 import { basicNodesPlugins } from './basic-nodes/basicNodesPlugins';
 import { editableProps } from './common/editableProps';
 import { plateUI } from './common/plateUI';
 import { suggestionValue } from './suggestion/constants';
 import { MySuggestionProvider } from './suggestion/MySuggestionsProvider';
-import { PlateSuggestionToolbarDropdown } from './suggestion/PlateSuggestionToolbarDropdown';
 import { Toolbar } from './toolbar/Toolbar';
 import { createMyPlugins, MyValue } from './typescript/plateTypes';
 
@@ -30,7 +30,7 @@ export default () => {
     <PlateProvider plugins={plugins} initialValue={suggestionValue}>
       <MySuggestionProvider>
         <Toolbar>
-          <PlateSuggestionToolbarDropdown />
+          <PlateSuggestionSelect />
         </Toolbar>
 
         <Plate<MyValue> editableProps={editableProps} />
