@@ -19,11 +19,13 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
+    "@radix-ui/react-select": "^1.2.1",
     "@udecode/plate-common": "20.4.0",
     "@udecode/plate-styled-components": "20.4.0",
     "@udecode/plate-suggestion": "20.4.0",
     "@udecode/plate-ui-button": "20.4.0",
-    "@udecode/plate-ui-toolbar": "20.4.0"
+    "@udecode/plate-ui-toolbar": "20.4.0",
+    "lucide-react": "^0.162.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
